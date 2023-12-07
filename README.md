@@ -1,2 +1,3 @@
-# Pi-in-da-ski
-Nick and Ali Pi in da ski
+# Pi-In-Da-Sky
+
+# Planning
