@@ -1,6 +1,9 @@
 # Pi-In-Da-Sky
 
-# Planning
+## Table Of Contents
+*[Planning](#Planning)
+
+## Planning
 
 ### Final Function
 The final function of our project will consist of a Pico suspended safely within a soccer ball that collects acceleration and rotation data while it’s being kicked around. The ball will be in two halves and lock into place to make retrieving and replacing the Pico easy. If we have extra time we’d like to model the path of our ball in a 3D space.
