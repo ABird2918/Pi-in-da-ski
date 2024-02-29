@@ -32,8 +32,8 @@ P: Our Pico lighting on fire in our ball and creating a big blaze.
 S: We will do our best to mitigate fire concerns such as creating a fireproof prototype but we will also have potential fire protocols in place as reactive measures…worst case scenario we make smores.
 
 ### Schedule
-Jan week 1: Create CAD prototype, start code and testing for accelerometer
-Jan week 2: Edit CAD prototype, get all outside materials, finish basic accelerometer code
+Jan week 1: Create CAD prototype, start code and testing for accelerometer  
+Jan week 2: Edit CAD prototype, get all outside materials, finish basic accelerometer code  
 Jan week 3: Print and create physical prototype, use accelerometer to initiate dead reckoning
 Jan week 4: Iterate physical prototype after it inevitably not working properly, continue dead reckoning testing
 Jan week 5: Relatively finalize physical prototype, code dead reckoning to report results to driver
