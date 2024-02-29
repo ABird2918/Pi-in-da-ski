@@ -58,17 +58,17 @@ S: We will do our best to mitigate fire concerns such as creating a fireproof pr
 ### Code
 We have anticipated some problems regarding the various forces acting on our soccer ball and how we will be able to successfully track its movement using just an accelerometer so the code will have to be a potentially dynamic plan but I will do my best to show the gist.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#### Pseudo-Code
-Set up accelerometer
-Add up the net x translation changes accounting for any tipping or rotating
-Print total x value
-Add up the net y translation changes accounting for any tipping or rotating
-Print total y value
-Add up net z translation changes accounting for any tipping or rotating
-Print total z value
-Triangulate the values to map the position of the ball at time t
-Derive velocity at any given t from the position
-Derive acceleration at any given t from velocity
-Graph position, velocity, and acceleration of the ball throughout its travels
-***IF WE HAVE TIME create a 3d representation of how the ball moved on a real field including bounces etc
+* #### Pseudo-Code
+  Set up accelerometer
+  Add up the net x translation changes accounting for any tipping or rotating
+  Print total x value
+  Add up the net y translation changes accounting for any tipping or rotating
+  Print total y value
+  Add up net z translation changes accounting for any tipping or rotating
+  Print total z value
+  Triangulate the values to map the position of the ball at time t
+  Derive velocity at any given t from the position
+  Derive acceleration at any given t from velocity
+  Graph position, velocity, and acceleration of the ball throughout its travels
+  ***IF WE HAVE TIME create a 3d representation of how the ball moved on a real field including bounces etc
 
