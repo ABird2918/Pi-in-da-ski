@@ -6,8 +6,8 @@
 The final function of our project will consist of a Pico suspended safely within a soccer ball that collects acceleration and rotation data while it’s being kicked around. The ball will be in two halves and lock into place to make retrieving and replacing the Pico easy. If we have extra time we’d like to model the path of our ball in a 3D space.
 
 ### Diagrams
-<img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/fcd7e84f-b6c8-408e-a637-fcff89d3e4c5" width="500"/>
-<img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/def695e8-ccb8-4d83-b86b-26c83e6c8851" width="500"/>
+<img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/fcd7e84f-b6c8-408e-a637-fcff89d3e4c5" style="border: 1px solid black" width="500"/>
+<img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/def695e8-ccb8-4d83-b86b-26c83e6c8851" style="border: 1px solid black" width="500"/>
 
 ### Materials
 PLA, Foam, Pico, Elastic Bands, Popped Soccer Ball, Pico Breadboard, and Accelerometer
