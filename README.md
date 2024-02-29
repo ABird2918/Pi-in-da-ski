@@ -1,7 +1,7 @@
 # Pi-In-Da-Sky
 
 ## Table Of Contents
-*[Planning](#Planning)
+[Planning](#Planning)
 
 ## Planning
 
