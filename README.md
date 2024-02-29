@@ -32,24 +32,24 @@ P: Our Pico lighting on fire in our ball and creating a big blaze.
 S: We will do our best to mitigate fire concerns such as creating a fireproof prototype but we will also have potential fire protocols in place as reactive measures…worst case scenario we make smores.
 
 ### Schedule
-Jan week 1: Create CAD prototype, start code and testing for accelerometer  
-Jan week 2: Edit CAD prototype, get all outside materials, finish basic accelerometer code  
-Jan week 3: Print and create physical prototype, use accelerometer to initiate dead reckoning
-Jan week 4: Iterate physical prototype after it inevitably not working properly, continue dead reckoning testing
-Jan week 5: Relatively finalize physical prototype, code dead reckoning to report results to driver
-Feb week 1: One week of leeway for testing code and adjusting together
-Feb week 2: Test code on physical prototype inside in ideal conditions gently
-Feb week 3: Test code a little less gently and adjust code and iterate prototype
-Feb week 4: Move outside to test and iterate
-Mar week 1: Work on tweaking accuracy on dead reckoning and what it delivers to us
-Mar week 2: Test and tweak
-Mar week 3: Finalize ball and use for testing code
-Mar week 4: Leeway for whatever needs done
-Apri week 2, 3, 4: shoot the ball and track it
-May week 1: Document successes/failures/project and use data to create a super cool training interface
-May week 2: Document, work on data display
-May week 3: Finish documentation and data display video
-May week 4&5: Leeway time
+Jan week 1: Create CAD prototype, start code and testing for accelerometer.  
+Jan week 2: Edit CAD prototype, get all outside materials, finish basic accelerometer code.  
+Jan week 3: Print and create physical prototype, use accelerometer to initiate dead reckoning.  
+Jan week 4: Iterate physical prototype after it inevitably not working properly, continue dead reckoning testing.  
+Jan week 5: Relatively finalize physical prototype, code dead reckoning to report results to driver.  
+Feb week 1: One week of leeway for testing code and adjusting together.  
+Feb week 2: Test code on physical prototype inside in ideal conditions gently.  
+Feb week 3: Test code a little less gently and adjust code and iterate prototype.  
+Feb week 4: Move outside to test and iterate.  
+Mar week 1: Work on tweaking accuracy on dead reckoning and what it delivers to us.  
+Mar week 2: Test and tweak.  
+Mar week 3: Finalize ball and use for testing code.  
+Mar week 4: Leeway for whatever needs done.  
+Apri week 2, 3, 4: shoot the ball and track it.  
+May week 1: Document successes/failures/project and use data to create a super cool training interface.  
+May week 2: Document, work on data display.  
+May week 3: Finish documentation and data display video.  
+May week 4&5: Leeway time.  
 
 ### Code
 We have anticipated some problems regarding the various forces acting on our soccer ball and how we will be able to successfully track its movement using just an accelerometer so the code will have to be a potentially dynamic plan but I will do my best to show the gist.
