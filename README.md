@@ -14,12 +14,12 @@ The final function of our project will consist of a Pico suspended safely within
 <img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/def695e8-ccb8-4d83-b86b-26c83e6c8851" width="600"/>
 
 ### Materials
-PLA, Foam, Pico, Elastic Bands, Popped Soccer Ball, Pico Breadboard, and Accelerometer
-PLA: $6
-Pico and breadboard: $6
-Bands: $5
-Soccer ball: bring from home
-Accelerometer: $25 assuming we might need 2 throughout the project
+* PLA, Foam, Pico, Elastic Bands, Popped Soccer Ball, Pico Breadboard, and Accelerometer
+* PLA: $6
+* Pico and breadboard: $6
+* Bands: $5
+* Soccer ball: Bring from home
+* Accelerometer: $25 assuming we might need 2 throughout the project
 
 ### What To Learn:
 How to do Dead Reckoning, how to specifically lock the ball, how we seamlessly assemble the two balls, and how to prevent the ball from breaking after being kicked. 
@@ -71,4 +71,34 @@ We have anticipated some problems regarding the various forces acting on our soc
   Derive acceleration at any given t from velocity
   Graph position, velocity, and acceleration of the ball throughout its travels
   ***IF WE HAVE TIME create a 3d representation of how the ball moved on a real field including bounces etc
+
+## Documentation
+
+### Materials Used
+* Cheetah TPU
+* Pico and Cowbell
+* Accelerometer
+* Pico Headers
+* Foam Ball
+* Glue
+
+### CAD Renderings
+![Final Assembly (2)](https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/11cefcc8-7f79-4084-9bd8-85e595e56a02)
+![Final Assembly (1)](https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/12e746e6-9938-4f22-81dd-531886cf2980)
+
+### Evidence
+
+
+### Circuit Diagram
+
+
+### Code
+
+
+### Problems and Solutions
+
+
+### Data
+
+
 
