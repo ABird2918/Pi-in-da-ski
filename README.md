@@ -83,8 +83,8 @@ We have anticipated some problems regarding the various forces acting on our soc
 * Glue
 
 ### CAD Renderings
-![Final Assembly (2)](https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/11cefcc8-7f79-4084-9bd8-85e595e56a02)
-![Final Assembly (1)](https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/12e746e6-9938-4f22-81dd-531886cf2980)
+<img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/11cefcc8-7f79-4084-9bd8-85e595e56a02" width="600"/>
+<img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/12e746e6-9938-4f22-81dd-531886cf2980" width="600"/>
 
 ### Evidence
 
