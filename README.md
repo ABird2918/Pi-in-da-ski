@@ -110,7 +110,7 @@ We have anticipated some problems regarding the various forces acting on our soc
 <img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/12e746e6-9938-4f22-81dd-531886cf2980" width="425"/>
 
 ### CAD Process
-
+FIX DA CLAMP AGAIN
 
 ### Evidence
 
