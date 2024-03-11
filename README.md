@@ -116,12 +116,13 @@ We have anticipated some problems regarding the various forces acting on our soc
 
 
 ### Circuit Diagram
-
+![image](https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/92086620-d297-4b10-b31e-8c1941fbcaeb)
 
 ### Code
 
 
 ### Code Process
+
 
 ### Problems and Solutions
 
