@@ -74,29 +74,6 @@ We have anticipated some problems regarding the various forces acting on our soc
 
 ## Documentation
 
-### Weekly Check
-* Jan Week 1: 
-* Jan Week 2:
-* Jan Week 3:
-* Jan Week 4:
-* Feb Week 1:
-* Feb Week 2:
-* Feb Week 3:
-* Feb Week 4:
-* Mar Week 1:
-* Mar Week 2:
-* Mar Week 3:
-* Mar Week 4:
-* Apr Week 1:
-* Apr Week 2:
-* Apr Week 3:
-* Apr Week 4:
-* May Week 1:
-* May Week 2:
-* May Week 3:
-* May Week 4:
-* May Week 5:
-
 ### Materials Used
 * Cheetah TPU
 * Pico and Cowbell
@@ -110,7 +87,7 @@ We have anticipated some problems regarding the various forces acting on our soc
 <img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/12e746e6-9938-4f22-81dd-531886cf2980" width="425"/>
 
 ### CAD Process
-FIX DA CLAMP AGAIN
+The CAD process was fairly standard for this assignment, despite a few road bumps. We began by simply making one hemisphere of our ball and started adding hooks to attach bungees to suspend the Pico. We quickly realized that bungees wouldn't keep the Pico rigid enough and would eventually mess with our Pico's data. So we pivoted to a much more basic, pole structure, meaning we just attached our Pico to some solid poles in the hemisphere. We then added a stand with a some concavity for our Pico to sit in so that it won't be able to wiggle around. We finished this half off by using a public threading tool to automatically add threading to the hemisphere so it can connect to its other half. Next we copied over the hemisphere to another part studio, minus the inner poles, and added reverse threading to it so the two halves fit together. Going back to the half with the pico in it, we needed to add one more piece to secure our pico for consistent data. We opted to create a flexible clamp that would fit over the pico and hook under its stand. We decided to use flexible filament so that our design had some give and could fit more taught around the Pico. We finally added to two halves together in an assembly and admired it for many moons. After we had finished the brunt of the work, we realized a few touches needed to be added to better the design...
 
 ### Evidence
 
@@ -121,15 +98,36 @@ FIX DA CLAMP AGAIN
 ### Code
 
 
+### Data
+
+
 ### Code Process
 
 
 ### Problems and Solutions
 
 
-### Data
-
-
-### Weekly Report
+### Weekly Check
+* Jan Week 1: Began conceptualizing Onshape and 
+* Jan Week 2: Created prototype outer-shell in Onshape and 
+* Jan Week 3: Redesigned Pico holding mechanism and
+* Jan Week 4: Added pico stand to Onshape and 
+* Feb Week 1: Created other side of the ball and added threading to both sides as well as 
+* Feb Week 2: Quality of life touches to CAD, bulk outline of documentation, and 
+* Feb Week 3: Soldered accelerometer to pico and
+* Feb Week 4: Soldered headers and battery plug to pico as well as 
+* Mar Week 1: Created wiring diagram for Pico, touched up documentation, and 
+* Mar Week 2: Fixed "Flexy Clamp" to fit new accelerometer, developed documentation, and 
+* Mar Week 3:
+* Mar Week 4:
+* Apr Week 1:
+* Apr Week 2:
+* Apr Week 3:
+* Apr Week 4:
+* May Week 1:
+* May Week 2:
+* May Week 3:
+* May Week 4:
+* May Week 5:
 
 ****
