@@ -28,12 +28,12 @@ How to do Dead Reckoning, how to specifically lock the ball, how we seamlessly a
 We will be successful when we are able to report and graph the acceleration of the ball after it is kicked which will allow us to determine velocity and position of the ball too. We also require 100% survivability of the device so we won’t be successful unless the ball remains intact completely and the pico undamaged.
 
 ### Safety Concerns
-P: The ball shattering on impact and sending shrapnel everywhere.
-S: We make our ball strong enough to withstand a kick and we pad the PLA part so that it will remain contained if it breaks
-P: Someone getting hit with the ball and getting hurt
-S: We will not kick the ball toward any person unless passing in a very controlled manner with confirmation of active participation from all parties.
-P: Our Pico lighting on fire in our ball and creating a big blaze.
-S: We will do our best to mitigate fire concerns such as creating a fireproof prototype but we will also have potential fire protocols in place as reactive measures…worst case scenario we make smores.
+* P: The ball shattering on impact and sending shrapnel everywhere.
+* S: We make our ball strong enough to withstand a kick and we pad the PLA part so that it will remain contained if it breaks
+* P: Someone getting hit with the ball and getting hurt
+* S: We will not kick the ball toward any person unless passing in a very controlled manner with confirmation of active participation from all parties.
+* P: Our Pico lighting on fire in our ball and creating a big blaze.
+* S: We will do our best to mitigate fire concerns such as creating a fireproof prototype but we will also have potential fire protocols in place as reactive measures…worst case scenario we make smores.
 
 ### Schedule
 * Jan Week 1: Create CAD prototype, start code and testing for accelerometer.  
