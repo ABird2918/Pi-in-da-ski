@@ -92,7 +92,7 @@ The CAD process was fairly standard for this assignment, despite a few road bump
 ### Evidence
 
 
-### Circuit Diagram
+### Wiring Diagram
 ![image](https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/92086620-d297-4b10-b31e-8c1941fbcaeb)
 
 ### Code
@@ -103,7 +103,8 @@ The CAD process was fairly standard for this assignment, despite a few road bump
 
 ### Code Process
 * The first problem we ran into was in creating an array that is compatible with running the trapz function twice. The function needed a 3d array so that the integration could happen in two layers. We needed the first integration to yield a vector that could be integrated again rather than a constant which returns zeros if integrated twice. To solve this problem, we found a function called meshgrid in the numpy library but it only works in python, not circuitpython. Therefore, we looked into how we could create a 3d array by hand but it quickly became evident that such a goal would be way too much work to complete a task that should be done by a simple function. So, after that revelation we decided to search more intensely for libraries and functions that could perform the double integration all at once. We came across the library called scipy in ulab which contained the function called dblquad.
-* This dblquad function seemed too good to be true. All we had to do was input our acceleration data and it will spit out exactly the position data that we needed. Unfortunately, we were right: it was indeed too good to be true. This function also did not exist in a library accessible for circuitpython. We weren't ready to give up on it yet, though, because this function worked so conveniently. We went deep into the github page that held the raw code for the dblquad function. I thought I was going to be able to copy/paste the raw code into my circuitpython file and run it like normal. However, upon further investigation, it appeared as though the code drew upon math packs called the fortran quadpacks. This meant in order to 
+* This dblquad function seemed too good to be true. All we had to do was input our acceleration data and it will spit out exactly the position data that we needed. Unfortunately, we were right: it was indeed too good to be true. This function also did not exist in a library accessible for circuitpython. We weren't ready to give up on it yet, though, because this function worked so conveniently. We went deep into the github page that held the raw code for the dblquad function. I thought I was going to be able to copy/paste the raw code into my circuitpython file and run it like normal. However, upon further investigation, it appeared as though the code drew upon math packs called the fortran quadpacks. This meant in order to run that function, I would have to rewrite the portions in fortran in circuitpython which would require learning fortran and would take a lot of time. We decided not to do that and try something else.
+* At this point, we realized that there exists no function that could be run using circuitpython libraries that could double integrate all at once. The circuitpython math library, ulab, would not 
 
 ### Problems and Solutions
 
