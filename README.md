@@ -107,9 +107,9 @@ The CAD process was fairly standard for this assignment, despite a few road bump
 * At this point, we realized that there exists no function that could be run using circuitpython libraries that could double integrate all at once. The circuitpython math library, ulab, would not cut it. We shifted our mindset, deciding instead to run two different programs, a program to collect data and a program to process it. We can easily use pure python and therefore its libraries to post process the data becuase it doesn't require using the pico. We can use the dblquad function through numpy in python to run analysis of a data csv file.
 
 ### Weekly Check
-* Jan Week 1: Began conceptualizing Onshape and 
-* Jan Week 2: Created prototype outer-shell in Onshape and 
-* Jan Week 3: Redesigned Pico holding mechanism and
+* Jan Week 1: Began conceptualizing Onshape and organized code to test accelerometer
+* Jan Week 2: Created prototype outer-shell in Onshape and continued accelerometer code
+* Jan Week 3: Redesigned Pico holding mechanism and successfully got accelerometer data to print in the terminal
 * Jan Week 4: Added pico stand to Onshape and 
 * Feb Week 1: Created other side of the ball and added threading to both sides as well as 
 * Feb Week 2: Quality of life touches to CAD, bulk outline of documentation, and 
