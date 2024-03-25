@@ -118,7 +118,7 @@ The CAD process was fairly standard for this assignment, despite a few road bump
 * Feb Week 4: Soldered headers and battery plug to pico as well as 
 * Mar Week 1: Created wiring diagram for Pico, touched up documentation, and 
 * Mar Week 2: Fixed "Flexy Clamp" to fit new accelerometer, developed documentation, and 
-* Mar Week 3:
+* Mar Week 3: Added battery slot to Flexy Clamp and 
 * Mar Week 4:
 * Apr Week 1:
 * Apr Week 2:
