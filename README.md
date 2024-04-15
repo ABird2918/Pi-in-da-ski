@@ -121,7 +121,7 @@ The CAD process was fairly standard for this assignment, despite a few road bump
 * Mar Week 3: Added battery slot to Flexy Clamp and 
 * Mar Week 4: Printed out Flexy Clamp and the final ball desing, as well as 
 * Apr Week 1: SPRING BREAK!
-* Apr Week 2: Hollowed Out Foam Ball to Fit Inner Ball and 
+* Apr Week 2: Hollowed put foam ball to fit inner ball and
 * Apr Week 3: 
 * Apr Week 4:
 * May Week 1:
