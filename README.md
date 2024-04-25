@@ -96,7 +96,7 @@ We have anticipated some problems regarding the various forces acting on our soc
 <img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/4598edb6-3a04-4843-a610-c591a59c76b1" width="475"/>
 
 ### Wiring Diagram
-![image](https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/92086620-d297-4b10-b31e-8c1941fbcaeb)
+![image](https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/df3f0249-dfb3-4197-82c5-235a5f54b55c)
 
 ### Code
 
