@@ -113,14 +113,14 @@ We have anticipated some problems regarding the various forces acting on our soc
 * Jan Week 1: Began conceptualizing Onshape and organized code to test accelerometer.
 * Jan Week 2: Created prototype outer-shell in Onshape and continued accelerometer code.
 * Jan Week 3: Redesigned Pico holding mechanism and successfully got accelerometer data to print in the terminal.
-* Jan Week 4: Added pico stand to Onshape and 
-* Feb Week 1: Created other side of the ball and added threading to both sides as well as 
-* Feb Week 2: Quality of life touches to CAD, bulk outline of documentation, and 
-* Feb Week 3: Soldered accelerometer to pico and
-* Feb Week 4: Soldered headers and battery plug to pico as well as 
-* Mar Week 1: Created wiring diagram for Pico, touched up documentation, and 
-* Mar Week 2: Fixed "Flexy Clamp" to fit new accelerometer, developed documentation, and 
-* Mar Week 3: Added battery slot to Flexy Clamp and 
+* Jan Week 4: Added pico stand to Onshape and began research into potential integration methods.
+* Feb Week 1: Created other side of the ball and added threading to both sides as well as began research into meshgrid to execute np.trapz.
+* Feb Week 2: Quality of life touches to CAD, bulk outline of documentation, and shifted gears away from np.trapz and meshgrid and researched alternative methods.
+* Feb Week 3: Soldered accelerometer to pico and continued research and found scipy as a potential library to use.
+* Feb Week 4: Soldered headers and battery plug to pico as well as tried scipy dblquad code.
+* Mar Week 1: Created wiring diagram for Pico, touched up documentation, and tested and iterated dblquad code.
+* Mar Week 2: Fixed "Flexy Clamp" to fit new accelerometer, developed documentation, and realized that we couldn't use dblquad in circuitpython without dipping into fortran.
+* Mar Week 3: Added battery slot to Flexy Clamp and decided against fortran in favor of running separate programs, one in circuipython, and one in python to use effective libraries.
 * Mar Week 4: Printed out Flexy Clamp and the final ball desing, as well as 
 * Apr Week 1: SPRING BREAK!
 * Apr Week 2: Hollowed put foam ball to fit inner ball and
