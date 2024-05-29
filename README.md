@@ -103,8 +103,9 @@ We have anticipated some problems regarding the various forces acting on our soc
 <img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/4598edb6-3a04-4843-a610-c591a59c76b1" width="475"/>
 
 #### Stress Testing
+https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/5a06102f-24fe-4e25-99f5-068da57c92a2
 https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/44e94178-4e6f-41d1-9571-a8959c986304
-
+https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/87a1cf24-9a17-4206-a703-0cd95ced0ff9
 
 ### Wiring Diagram
 ![image](https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/df3f0249-dfb3-4197-82c5-235a5f54b55c)
