@@ -83,8 +83,12 @@ We have anticipated some problems regarding the various forces acting on our soc
 * Glue
 
 ### CAD Renderings
+#### 1.0 (Threaded)
 <img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/fecfcdcb-e04c-4eb9-9d12-87a2408f01ad)" width="475"/>
 <img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/83175894-9c0e-4915-be47-4343d05265fe" width="475"/>
+
+#### 2.0 (Screwed)
+
 
 ### CAD Process and Problems
 * The CAD process was fairly standard for this assignment, despite a few road bumps. We began by simply making one hemisphere of our ball and started adding hooks to attach bungees to suspend the Pico. We quickly realized that bungees wouldn't keep the Pico rigid enough and would eventually mess with our Pico's data. So we pivoted to a much more basic, pole structure, meaning we just attached our Pico to some solid poles in the hemisphere. We then added a stand with a some concavity for our Pico to sit in so that it won't be able to wiggle around. We finished this half off by using a public threading tool to automatically add threading to the hemisphere so it can connect to its other half. Next we copied over the hemisphere to another part studio, minus the inner poles, and added reverse threading to it so the two halves fit together. 
