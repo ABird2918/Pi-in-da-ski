@@ -81,6 +81,10 @@ We have anticipated some problems regarding the various forces acting on our soc
 * Pico Headers
 * Foam Ball
 * Glue
+* #4-40 Screws
+* Soldered Nut Inserts
+* Switch
+* 6x1 Header
 
 ### CAD Renderings
 #### 1.0 (Threaded)
@@ -151,7 +155,7 @@ https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/87a1cf24-9a17-4206-a70
 * May Week 2: Rethought ball designs and realized that dblquad needs a function to integrate, not raw data.
 * May Week 3: Caded new ball and researched ways to make raw data an integratable function but decided on going back to the trapz function.
 * May Week 4: Printed ball and worked on adding time collection to the circuitpython data collection program.
-* May Week 5: Assembled ball and worked primarily on documentation.
+* May Week 5: Assembled ball, fixed some wiring, and worked primarily on documentation.
 * Jun Week 1:
 
 ****
