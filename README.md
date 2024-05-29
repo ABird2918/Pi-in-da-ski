@@ -97,9 +97,14 @@ We have anticipated some problems regarding the various forces acting on our soc
 * Going back to the half with the pico in it, we needed to add one more piece to secure our pico for consistent data. We opted to create a flexible clamp that would fit over the pico and hook under its stand. We decided to use flexible filament so that our design had some give and could fit more taught around the Pico. We finally added to two halves together in an assembly and admired it for many moons.
 * After we had finished the brunt of the work, we realized a few touches needed to be added to better the design. We added holes that ran through the structural poles to aid in seperating the two hemispheres, once the pico was fully soldered we had to adjust the sizing of our clamp to fit around the pico, and finally we thickened the threading on the two hemispheres because we worried they were too fragile and would break. Most recently we added a slot into our Pico clamp to fit a battery because APPARENTLY "you aren't allowed to have a battery dangle."
 * The next issue has come with assembling the ball. After hollowing both sides of our foam ball, we put both halves of the printed ball in the foam outer shell and tried to spin the two halves together. The issue is that the foam of both sides rub so much that you can't twist the ball, that and the fact that it's nearly impossible to line up the threading on the two printed balls when you can't see them without obstructions. To fix this we are going to hollow out the two holes going across the balls to fit rods that may help with assembly. That coupled with placing some wooden dowels in the foam balls to prevent the inner ball from sinking into the foam allowed us to assemble the two halves with decent consistency.
+* In the end, the threading in the ball wasn't strong enough to withstand heavy kicks. As a result we decided to completely pivot and move to a screwed ball design, involving soldered nut inserts in one side of the ball so that we may screw through the ball to connect it. This would hopefully allow the ball to withstand more force, on the downside we had to completely reprint the ball. Despite some minor complication when insterting the soldered nuts, such as melted TPU finding its way into the nut threading preventing screws from being able to go all the way through, the assembly was all the same as the first model.
 
 ### Evidence
 <img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/4598edb6-3a04-4843-a610-c591a59c76b1" width="475"/>
+
+#### Stress Testing
+https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/44e94178-4e6f-41d1-9571-a8959c986304
+
 
 ### Wiring Diagram
 ![image](https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/df3f0249-dfb3-4197-82c5-235a5f54b55c)
@@ -137,10 +142,11 @@ We have anticipated some problems regarding the various forces acting on our soc
 * Apr Week 2: Hollowed put foam ball to fit inner ball and developed separate python library to run the dblquad function.
 * Apr Week 3: Extruded holes in foam balls, fixed inner sphere sinking, as well as adapted dblquad function.
 * Apr Week 4: Temporarily assembled ball, bolstered documentation, and attempted to create variables representative of each element necessary to run dblquad integration.
-* May Week 1: ... and attempted to test dblquad to no avail.
-* May Week 2: ... and realized that dblquad needs a function to integrate, not raw data.
-* May Week 3: ... and researched ways to make raw data an integratable function but decided on going back to the trapz function.
-* May Week 4: ... and worked on adding time collection to the circuitpython data collection program.
-* May Week 5: ... and worked primarily on documentation.
+* May Week 1: Fully assembled ball, stress tested, and attempted to test dblquad to no avail.
+* May Week 2: Rethought ball designs and realized that dblquad needs a function to integrate, not raw data.
+* May Week 3: Caded new ball and researched ways to make raw data an integratable function but decided on going back to the trapz function.
+* May Week 4: Printed ball and worked on adding time collection to the circuitpython data collection program.
+* May Week 5: Assembled ball and worked primarily on documentation.
+* Jun Week 1:
 
 ****
