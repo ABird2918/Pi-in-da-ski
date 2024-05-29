@@ -85,7 +85,7 @@ We have anticipated some problems regarding the various forces acting on our soc
 ### CAD Renderings
 #### 1.0 (Threaded)
 <img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/fecfcdcb-e04c-4eb9-9d12-87a2408f01ad)" width="475"/>
-<img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/83175894-9c0e-4915-be47-4343d05265fe" width="475"/>
+<img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/83175894-9c0e-4915-be47-4343d05265fe" width="400"/>
 
 #### 2.0 (Screwed)
 <img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/870d33fc-e9db-4899-a111-f4d1447044d8)" width="475"/>
