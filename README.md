@@ -101,6 +101,7 @@ We have anticipated some problems regarding the various forces acting on our soc
 
 ### Evidence
 <img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/4598edb6-3a04-4843-a610-c591a59c76b1" width="475"/>
+<img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/a53adf7e-b4db-488e-8f6e-8e823205bdfd" width="475"/>
 
 #### Stress Testing
 
