@@ -88,6 +88,8 @@ We have anticipated some problems regarding the various forces acting on our soc
 <img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/83175894-9c0e-4915-be47-4343d05265fe" width="475"/>
 
 #### 2.0 (Screwed)
+<img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/870d33fc-e9db-4899-a111-f4d1447044d8)" width="475"/>
+<img src="https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/5bc9d2f7-9034-4a3f-a3d4-801854e7db05)" width="475"/>
 
 
 ### CAD Process and Problems
