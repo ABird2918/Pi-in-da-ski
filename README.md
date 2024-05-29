@@ -108,6 +108,11 @@ We have anticipated some problems regarding the various forces acting on our soc
 * The first problem we ran into was in creating an array that is compatible with running the trapz function twice. The function needed a 3d array so that the integration could happen in two layers. We needed the first integration to yield a vector that could be integrated again rather than a constant which returns zeros if integrated twice. To solve this problem, we found a function called meshgrid in the numpy library but it only works in python, not circuitpython. Therefore, we looked into how we could create a 3d array by hand but it quickly became evident that such a goal would be way too much work to complete a task that should be done by a simple function. So, after that revelation we decided to search more intensely for libraries and functions that could perform the double integration all at once. We came across the library called scipy in ulab which contained the function called dblquad.
 * This dblquad function seemed too good to be true. All we had to do was input our acceleration data and it will spit out exactly the position data that we needed. Unfortunately, we were right: it was indeed too good to be true. This function also did not exist in a library accessible for circuitpython. We weren't ready to give up on it yet, though, because this function worked so conveniently. We went deep into the github page that held the raw code for the dblquad function. I thought I was going to be able to copy/paste the raw code into my circuitpython file and run it like normal. However, upon further investigation, it appeared as though the code drew upon math packs called the fortran quadpacks. This meant in order to run that function, I would have to rewrite the portions in fortran in circuitpython which would require learning fortran and would take a lot of time. We decided not to do that and try something else.
 * At this point, we realized that there exists no function that could be run using circuitpython libraries that could double integrate all at once. The circuitpython math library, ulab, would not cut it. We shifted our mindset, deciding instead to run two different programs, a program to collect data and a program to process it. We can easily use pure python and therefore its libraries to post process the data becuase it doesn't require using the pico. We can use the dblquad function through numpy in python to run analysis of a data csv file.
+* dblquad needs
+* decision to go back to trapz
+* trapz needs time to integrate over, meshgrid?
+* overall problem: going in circles
+* overall problem: integration not compatible for circuitpython
 
 ### Weekly Check
 * Jan Week 1: Began conceptualizing Onshape and organized code to test accelerometer.
@@ -121,15 +126,15 @@ We have anticipated some problems regarding the various forces acting on our soc
 * Mar Week 1: Created wiring diagram for Pico, touched up documentation, and tested and iterated dblquad code.
 * Mar Week 2: Fixed "Flexy Clamp" to fit new accelerometer, developed documentation, and realized that we couldn't use dblquad in circuitpython without dipping into fortran.
 * Mar Week 3: Added battery slot to Flexy Clamp and decided against fortran in favor of running separate programs, one in circuipython, and one in python to use effective libraries.
-* Mar Week 4: Printed out Flexy Clamp and the final ball desing, as well as 
+* Mar Week 4: Printed out Flexy Clamp and the final ball design, as well as collected data by kicking ball and running the circuitpython data collection program.
 * Apr Week 1: SPRING BREAK!
-* Apr Week 2: Hollowed put foam ball to fit inner ball and
-* Apr Week 3: Extruded holes in foam balls, fixed inner sphere sinking, as well as 
-* Apr Week 4: Temporarily assembled ball, bolstered documentation, and 
-* May Week 1:
-* May Week 2:
-* May Week 3:
-* May Week 4:
-* May Week 5:
+* Apr Week 2: Hollowed put foam ball to fit inner ball and developed separate python library to run the dblquad function.
+* Apr Week 3: Extruded holes in foam balls, fixed inner sphere sinking, as well as adapted dblquad function.
+* Apr Week 4: Temporarily assembled ball, bolstered documentation, and attempted to create variables representative of each element necessary to run dblquad integration.
+* May Week 1: ... and attempted to test dblquad to no avail.
+* May Week 2: ... and realized that dblquad needs a function to integrate, not raw data.
+* May Week 3: ... and researched ways to make raw data an integratable function but decided on going back to the trapz function.
+* May Week 4: ... and worked on adding time collection to the circuitpython data collection program.
+* May Week 5: ... and worked primarily on documentation.
 
 ****
