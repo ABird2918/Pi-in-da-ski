@@ -1,0 +1,36 @@
+#type: ignore
+import time
+
+#from ulab import numpy as np
+#import ulab
+
+#import pandas as pd
+import csv
+#import matplotlib.pyplot as plt
+import numpy as np
+
+xacc = []
+yacc = []
+zacc = []
+rows = []
+
+t = []
+
+
+def math():
+    xint = np.trapz(xacc, t, axis=0)
+    #yint = np.trapz(yacc, t, axis=0)
+    #zint = np.trapz(zacc, t, axis=0)
+    print(xint)
+    #print(yint)
+    #print(zint)
+with open("C:/Users/abird2918/Documents/data.csv", "r") as datalog:
+    csvreader = csv.reader(datalog)
+    header = next(csvreader)
+    for row in csvreader:
+        rows.append(row)
+        xacc.append(row[0])
+        #yacc.append(row[1])
+        #zacc.append(row[2])
+        t.append()
+
