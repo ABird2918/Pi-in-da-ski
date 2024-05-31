@@ -1,0 +1,19 @@
+#type: ignore
+import time #delay library
+import board #pins library
+import digitalio #LED library
+from adafruit_lsm6ds.lsm6dso32 import LSM6DSO32
+import busio
+import adafruit_register
+
+i2c = busio.I2C(board.GP3, board.GP2) #I2C device declaration
+mpu = LSM6DSO32(i2c) #accelerometer declaration
+
+with open("/data.csv", "w") as datalog: #creates data.csv filem
+    while True:
+        xacc = mpu.acceleration[0] #x acceleration
+        yacc = mpu.acceleration[1] #y acceleration
+        zacc = mpu.acceleration[2] #z accleration
+        t = time.monotonic()
+        datalog.write(f"{t},{xacc},{yacc},{zacc},\n") #write data
+        datalog.flush() #push data to csv
