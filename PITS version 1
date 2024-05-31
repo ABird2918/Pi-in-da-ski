@@ -1,0 +1,60 @@
+#type: ignore
+import time
+import digitalio
+import board
+from adafruit_lsm6ds.lsm6dso32 import LSM6DSO32
+import busio
+from ulab import numpy as np
+
+sda = board.GP4 #SDA pin
+scl = board.GP5 #SCL pin
+i2c = busio.I2C(scl,sda) #I2C device declaration
+sensor = LSM6DSO32(i2c)
+timer = 0
+x = [[0]*5]*2
+t = []
+t2, t2 = np.meshgrid(x, t)
+
+def math():
+    #xfirst = np.trapz(x, t)
+    #print(xfirst)
+    
+    xx = np.linspace(x)
+    tt = np.linspace(t)
+    xx2, tt2 = np.meshgrid(xx, tt)
+    firstint = distFunc(xx2, tt2)
+    secint = np.trapz(np.trapz(firstint, y, axis=0), axis=0)
+    print(secint)
+  
+def distFunc(x,t):
+    f = np.exp(-x+t)
+    return f
+
+
+
+#altitude = sensor.altitude
+while True: 
+# create the display group
+    
+    #print(f"{sensor.altitude}")  
+    #data = f"\n{round(sensor.acceleration[0],3)}, {round(sensor.acceleration[1],3)}, {round(sensor.acceleration[2],3)}"
+    #print(data)
+    #time.sleep(2)
+    xdata = sensor.acceleration[0]
+    print(xdata)
+    x.append(xdata)
+    #xsecond = np.trapz(xfirst, dt = 1)
+    #xpath = sensor.acceleration([0],3) + xsecond
+    #print(xpath)
+    print(timer)
+    time.sleep(1)
+    timer = timer + 1
+    t.append(timer)
+    if (timer == 10):
+        math()
+        timer = 0
+#x path = initial x coordinate + 2nd integral of xacceleration
+#y path = initial y coordinate + integral of yacceleration with respect to time
+#z path = initial z coordinate + integral of zacceleration with respect to time
+
+
