@@ -139,7 +139,11 @@ Final Test Aftermath (Screwed)
 ![image](https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/df3f0249-dfb3-4197-82c5-235a5f54b55c)
 
 ### Code
-
+[PITS Version 1 - trapz with meshgrid](https://github.com/ABird2918/Pi-in-da-ski/blob/main/PITS%20version%201)
+[PITS Version 2 - dblquad with general terms](https://github.com/ABird2918/Pi-in-da-ski/blob/main/PITS%20version%202)
+[PITS Version 3 - dblquad in context](https://github.com/ABird2918/Pi-in-da-ski/blob/main/PITS%20version%203)
+[PITS Version 4 - final data collection code](https://github.com/ABird2918/Pi-in-da-ski/blob/main/PITS%20version%204%20(final%20data%20collection))
+[PITS Version 4 - final post processing draft code](https://github.com/ABird2918/Pi-in-da-ski/blob/main/PITS%20version%204%20(final%20post%20processing%20draft))
 
 ### Data
 ![image](images/graph.PNG)
