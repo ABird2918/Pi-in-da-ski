@@ -1,0 +1,87 @@
+#type: ignore
+import time
+
+#from ulab import numpy as np
+#import ulab
+from scipy import integrate
+#import pandas as pd
+import csv
+#import matplotlib.pyplot as plt
+#import numpy as np
+
+xacc = []
+yacc = []
+zacc = []
+rows = []
+
+
+
+def math():
+    #xfirst = np.trapz(x, t)
+    #print(xfirst)
+    calcelus = integrate.dblquad(xacc, 0, 120, xmin, xmax)
+    print(calcelus)
+
+with open("C:/Users/abird2918/Documents/data.csv", "r") as datalog:
+    csvreader = csv.reader(datalog)
+    header = next(csvreader)
+    for row in csvreader:
+        rows.append(row)
+        xacc.append(float(row[0]))
+        yacc.append(row[1])
+        zacc.append(row[2])
+        xmax = max(xacc)
+        xmin = min(xacc)
+    math()
+    #print (header)
+    #print (rows)
+    #print(xacc)
+    #print(yacc)
+    #print(zacc)
+'''t = []
+
+plt.plot(xacc)
+plt.xticks([1,2,3,4,5,6,7,8,9,10])
+
+plt.xlabel("time")
+plt.ylabel("acceleration")
+plt.show()
+plt.plot(yacc)
+plt.show()
+plt.plot(zacc)
+plt.show()
+
+while True:
+    if xacc > max:
+        max = xacc
+    if xacc < min:
+        min = xacc
+    
+    print(timer)
+    time.sleep(1)
+    timer = timer + 1
+    t.append(timer)
+    math()
+
+''''''data = pd.read_csv('data.csv')
+xpos = data['A'].xmath()
+ypos = data['B'].ymath()'''
+#print(xpos)
+#print(ypos)
+#zpos = data['C'].zmath()'''
+'''plt.scatter(xpos,ypos)
+plt.xlabel('time')
+plt.ylabel('position')
+plt.title('scatter plot of position over time')
+plt.show'''
+
+'''timer = 0
+xmax  = df['A'].max()
+xmin = df['A'].min()
+ymax = df['B'].max()
+ymin = df['B'].min()
+#zmax = df['C'].max()
+#zmin = df['C'].min()
+
+x = []
+t = []'''
