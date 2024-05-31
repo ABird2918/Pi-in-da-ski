@@ -126,6 +126,14 @@ https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/87a1cf24-9a17-4206-a70
 
 Second Test (Threaded)
 
+https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/b6b731f1-3ca0-400c-968a-0fff5ce702de
+
+Final Test (Screwed)
+
+![Test Aftermath](https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/c5187a86-0209-409b-8575-603183632741)
+
+Final Test Aftermath (Screwed)
+
 ### Wiring Diagram
 ![image](https://github.com/ABird2918/Pi-in-da-ski/assets/91289646/df3f0249-dfb3-4197-82c5-235a5f54b55c)
 
