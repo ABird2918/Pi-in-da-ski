@@ -140,13 +140,18 @@ Final Test Aftermath (Screwed)
 
 ### Code
 [PITS Version 1 - trapz with meshgrid](https://github.com/ABird2918/Pi-in-da-ski/blob/main/PITS%20version%201)
+&emsp;
 [PITS Version 2 - dblquad with general terms](https://github.com/ABird2918/Pi-in-da-ski/blob/main/PITS%20version%202)
+&emsp;
 [PITS Version 3 - dblquad in context](https://github.com/ABird2918/Pi-in-da-ski/blob/main/PITS%20version%203)
+&emsp;
 [PITS Version 4 - final data collection code](https://github.com/ABird2918/Pi-in-da-ski/blob/main/PITS%20version%204%20(final%20data%20collection))
+&emsp;
 [PITS Version 4 - final post processing draft code](https://github.com/ABird2918/Pi-in-da-ski/blob/main/PITS%20version%204%20(final%20post%20processing%20draft))
 
 ### Data
 ![image](images/graph.PNG)
+*This is the data collected from the final launch that ultimately broke the foam rather than the red ball inside. (Test conducted on 5/31/24)
 
 ### Code Process and Problems
 * The first problem we ran into was in creating an array that is compatible with running the trapz function twice. The function needed a 3d array so that the integration could happen in two layers. We needed the first integration to yield a vector that could be integrated again rather than a constant which returns zeros if integrated twice. To solve this problem, we found a function called meshgrid in the numpy library but it only works in python, not circuitpython. Therefore, we looked into how we could create a 3d array by hand but it quickly became evident that such a goal would be way too much work to complete a task that should be done by a simple function. So, after that revelation we decided to search more intensely for libraries and functions that could perform the double integration all at once. We came across the library called scipy in ulab which contained the function called dblquad.
@@ -157,6 +162,7 @@ Final Test Aftermath (Screwed)
 * One of the main issues we had originally with trapz was that it needed 3d arrays so that it could be integrated twice. This necessitated a function known as meshgrid to create a 3d array out of our 2d data arrays. Additionally, trapz needs to integrate over time but since we weren't collecting data at any certain time interval, we needed to collect time while we were collecting data as another data point. This added wrinkle unexpectedly added a lot of issues with our pico including a wiped pico, a shorting pico, and a pico without power. Those problems were fixed by resoldering and adjusting wiring. This unfortunately set us back a few class periods at an integral time for our project (pun intended).
 * A main problem we encountered throughout the entire year was the fact that we were operating in circles. Our code came and went and eventually ended up back exactly where we started which was a frustrating progression that strayed dramatically from our predicted timeline.
 * In the end, a combination of factors prevented us from having success in integration. The requirements necessary including time, experience with multiple languages like Fortran, and online resources to answer questions about our problems. No one has executed what we were trying to do with the technology we had access to so we were working truly from scratch. We will continue these inquiries in further development of this project and other projects in the future.
+* We were pretty proud of staying on schedule. The physical prototype was right on schedule and the code made steady progress but proved to be too difficult to finish as quickly as we had hoped we could.
 
 ### Weekly Check
 * Jan Week 1: Began conceptualizing Onshape and organized code to test accelerometer.
